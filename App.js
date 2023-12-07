@@ -1,9 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { StyleSheet, Text, View } from 'react-native'
+import Header from './src/Components/Header'
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Header title="Lionel Messi" />
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
