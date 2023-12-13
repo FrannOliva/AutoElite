@@ -1,22 +1,25 @@
-import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
-import Header from './src/Components/Header'
+import { StyleSheet, SafeAreaView, StatusBar } from 'react-native'
+import { colors } from './src/Global/colors'
+import Home from './src/Screens/Home'
+import ItemDetail from './src/Screens/ItemDetail';
+import ItemListCategories from './src/Screens/ItemListCategories';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Header title="Lionel Messi" />
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar backgroundColor={colors.skyBlue} />
+      <SafeAreaView style={styles.container}>
+        <Home />
+      </SafeAreaView>
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: 'flex-start',
+    width: "100%"
   },
 });
