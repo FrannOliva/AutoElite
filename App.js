@@ -10,7 +10,7 @@ export default function App() {
     <>
       <StatusBar backgroundColor={colors.skyBlue} />
       <SafeAreaView style={styles.container}>
-        <Home />
+        <ItemListCategories />
       </SafeAreaView>
     </>
   );
