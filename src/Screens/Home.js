@@ -2,11 +2,11 @@ import { StyleSheet, View } from 'react-native'
 import Header from '../Components/Header'
 import Categories from '../Components/Categories'
 
-const Home = () => {
+const Home = ({ setCategorySelected }) => {
   return (
     <View style={styles.container}>
       <Header title="CATEGORÍAS" />
-      <Categories />
+      <Categories setCategorySelected={setCategorySelected} />
     </View>
   )
 }
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     width: "100%",
     justifyContent: "center",
     alignItems: "center",
-    gap: 5
+    gap: 5,
+    fontFamily: "ibmRegular"
   }
 })

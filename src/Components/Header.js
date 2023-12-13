@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   text: {
     color: colors.white,
     fontSize: 23,
-    fontWeight: "500"
+    fontWeight: "500",
+    fontFamily: "ibmBold"
   }
 })

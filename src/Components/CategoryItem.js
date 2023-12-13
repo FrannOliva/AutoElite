@@ -1,9 +1,9 @@
 import { StyleSheet, Text, Pressable } from 'react-native'
 import { colors } from '../Global/colors'
 
-const CategoryItem = ({ category }) => {
+const CategoryItem = ({ category, setCategorySelected }) => {
   return (
-    <Pressable onPress={() => console.log(category)} style={styles.container}>
+    <Pressable onPress={() => setCategorySelected(category)} style={styles.container}>
       <Text style={styles.text}>{category}</Text>
     </Pressable>
   )
@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     padding: 10,
     width: 165,
     borderRadius: 6,
+    fontFamily: "ibmRegular"
   },
   text: {
     color: colors.white,
