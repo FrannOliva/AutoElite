@@ -5,7 +5,8 @@ import productsArray from '../Data/products.json'
 import ItemCard from '../Components/ItemCard'
 import { useEffect, useState } from 'react'
 
-const ItemListCategories = ({ category }) => {
+const ItemListCategories = ({ navigation, route }) => {
+  const { category } = route.params
   const [keyword, setKeyword] = useState("")
   const [products, setProducts] = useState(productsArray)
 
@@ -23,14 +24,13 @@ const ItemListCategories = ({ category }) => {
 
   return (
     <>
-      <Header title="PRODUCTOS" />
       <SearchBar keyword={keyword} setKeyword={setKeyword} />
       <FlatList
         data={products}
         keyExtractor={item => item.id}
-        renderItem={({ item }) => <ItemCard item={item} />}
         style={styles.card}
         contentContainerStyle={{ alignSelf: "center" }}
+        renderItem={({ item }) => <ItemCard item={item} navigation={navigation} route={route} />}
       />
     </>
   )

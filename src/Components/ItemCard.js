@@ -1,17 +1,17 @@
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, Image, Pressable } from 'react-native'
 import React from 'react'
 import { colors } from '../Global/colors'
 
-const ItemCard = ({ item }) => {
+const ItemCard = ({ item, navigation, route }) => {
   return (
-    <View style={styles.container}>
+    <Pressable style={styles.container} onPress={() => navigation.navigate("Detail", { id: item.id })}>
       <Image
         style={styles.image}
         resizeMode='cover'
         source={{ uri: item.thumbnail }}
       />
       <Text style={styles.text}>{item.title}</Text>
-    </View>
+    </Pressable>
   )
 }
 
@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
     fontFamily: "ibmRegular"
   },
   image: {
-    height: 130,
-    width: 130,
+    minHeight: 130,
+    minWidth: 130,
     marginLeft: 60
   }
 })
