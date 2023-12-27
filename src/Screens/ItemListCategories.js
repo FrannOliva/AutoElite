@@ -1,5 +1,4 @@
 import { FlatList, StyleSheet } from 'react-native'
-import Header from '../Components/Header'
 import SearchBar from '../Components/SearchBar'
 import productsArray from '../Data/products.json'
 import ItemCard from '../Components/ItemCard'

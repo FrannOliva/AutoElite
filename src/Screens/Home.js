@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     gap: 5,
-    fontFamily: "ibmRegular"
+    fontFamily: "ibmRegular",
   }
 })

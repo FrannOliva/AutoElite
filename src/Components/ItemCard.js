@@ -2,7 +2,7 @@ import { StyleSheet, Text, Image, Pressable } from 'react-native'
 import React from 'react'
 import { colors } from '../Global/colors'
 
-const ItemCard = ({ item, navigation, route }) => {
+const ItemCard = ({ item, navigation }) => {
   return (
     <Pressable style={styles.container} onPress={() => navigation.navigate("Detail", { id: item.id })}>
       <Image

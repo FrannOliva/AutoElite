@@ -36,12 +36,12 @@
     "price": 75999,
     "brand": "Nissan",
     "category": "CLASSIC",
-    "thumbnail": "",
+    "thumbnail": "https://tn.com.ar/resizer/v7Dt-g1s8tIFPidil6PBtUag_m0=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/UP4RER4LF5EYJGW46ZTHCGBEME.jpg",
     "images": [
-      "",
-      "",
-      "",
-      ""
+      "https://tn.com.ar/resizer/pleUvYKFyXH3rC1vx5nYQy0jTzU=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/7Q7YH4NVMZA3RBC3DKDZZ7UAQU.jpg",
+      "https://tn.com.ar/resizer/2mfaZTHmlLkah_x5Rl6YyYUrHjE=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/LM6KN7E2DVBIJPSNCUTRCPUXLY.jpg",
+      "https://tn.com.ar/resizer/dlYKMQkKX09bST-gdU6XIuvDzlE=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/RFIV52BLTFDCRMYZIYQGYWKIB4.jpg",
+      "https://tn.com.ar/resizer/O0Geoj93a-6gr_MsI2Zj6aXPGrs=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/5A62PWC7VRBE3O27B3MIT4QA3E.jpg"
     ]
   },
   {
@@ -51,12 +51,12 @@
     "price": 39999,
     "brand": "Mitsubishi",
     "category": "CLASSIC",
-    "thumbnail": "",
+    "thumbnail": "https://static.cargurus.com/images/forsale/2023/08/09/13/32/1996_mitsubishi_eclipse-pic-5764325012791605960-1024x768.jpeg",
     "images": [
-      "",
-      "",
-      "",
-      ""
+      "https://static.cargurus.com/images/forsale/2023/08/09/13/32/1996_mitsubishi_eclipse-pic-8804714770456756802-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/08/09/13/32/1996_mitsubishi_eclipse-pic-7908608013017365465-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/08/09/13/32/1996_mitsubishi_eclipse-pic-842848210953920984-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/08/09/13/32/1996_mitsubishi_eclipse-pic-4684642208500249638-1024x768.jpeg"
     ]
   },
   {
@@ -76,17 +76,17 @@
   },
   {
     "id": 6,
-    "title": "Nissan S13",
+    "title": "Mazda RX7",
     "description": "",
-    "price": 18999,
-    "brand": "Nissan",
+    "price": 48000,
+    "brand": "Mazda",
     "category": "CLASSIC",
-    "thumbnail": "",
+    "thumbnail": "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-3558015781235940163-1024x768.jpeg",
     "images": [
-      "",
-      "",
-      "",
-      ""
+      "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-2135281232861258509-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-187049117780709286-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-2901816345700393462-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-7582526191793046733-1024x768.jpeg"
     ]
   },
   {

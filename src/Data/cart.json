@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Toyota GR86",
+    "description": "",
+    "price": 22999,
+    "brand": "Toyota",
+    "category": "SPORTCAR",
+    "thumbnail": "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-5781632465765837914-1024x768.jpeg",
+    "images": [
+      "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-5203934688377471482-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-2377560361302744140-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-8853972962749799334-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-1300726827425076080-1024x768.jpeg"
+    ],
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "title": "Toyota Supra MK4",
+    "description": "",
+    "price": 109999,
+    "brand": "Toyota",
+    "category": "CLASSIC",
+    "thumbnail": "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-1000415793599659561-1024x768.jpeg",
+    "images": [
+      "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-7926891539291651219-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-2692856961736129087-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/10/19/13/53/1997_toyota_supra-pic-1564511092284089971-1024x768.jpeg",
+      "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-2460339336413083769-1024x768.jpeg"
+    ],
+    "quantity": 3
+  }
+]

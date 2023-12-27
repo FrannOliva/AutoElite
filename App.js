@@ -1,4 +1,4 @@
-import { StyleSheet, SafeAreaView, StatusBar } from 'react-native'
+import { StatusBar } from 'react-native'
 import { colors } from './src/Global/colors'
 import { useFonts } from 'expo-font'
 import { fonts } from './src/Global/fonts'
