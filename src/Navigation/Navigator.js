@@ -6,6 +6,7 @@ import ShopStack from "./ShopStack"
 import CartStack from "./CartStack"
 import { FontAwesome } from '@expo/vector-icons'
 import { Entypo } from '@expo/vector-icons';
+import OrderStack from "./OrderStack"
 
 const Navigator = () => {
   const Tab = createBottomTabNavigator();
@@ -23,6 +24,12 @@ const Navigator = () => {
           component={CartStack}
           options={{
             tabBarIcon: ({ focused }) => <FontAwesome name="shopping-cart" size={25} color={focused ? colors.blue : colors.black} />
+          }} />
+        <Tab.Screen
+          name="Ordenes"
+          component={OrderStack}
+          options={{
+            tabBarIcon: ({ focused }) => <FontAwesome name="list-ul" size={25} color={focused ? colors.blue : colors.black} />
           }} />
       </Tab.Navigator>
     </NavigationContainer>

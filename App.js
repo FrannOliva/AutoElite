@@ -3,6 +3,8 @@ import { colors } from './src/Global/colors'
 import { useFonts } from 'expo-font'
 import { fonts } from './src/Global/fonts'
 import Navigator from './src/Navigation/Navigator'
+import { store } from './src/App/store'
+import { Provider } from 'react-redux'
 
 export default function App() {
   const [fontLoaded] = useFonts(fonts)
@@ -11,7 +13,9 @@ export default function App() {
   return (
     <>
       <StatusBar backgroundColor={colors.skyBlue} />
-      <Navigator />
+      <Provider store={store}>
+        <Navigator />
+      </Provider>
     </>
   )
 }

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "userId": 2,
+    "createdAt":1679869276580,
+    "items": [
+      {
+        "id": 1,
+        "title": "Toyota GR86",
+        "description": "",
+        "price": 22999,
+        "brand": "Toyota",
+        "category": "SPORTCAR",
+        "thumbnail": "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-5781632465765837914-1024x768.jpeg",
+        "images": [
+          "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-5203934688377471482-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-2377560361302744140-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-8853972962749799334-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/09/20/15/38/2022_toyota_gr86-pic-1300726827425076080-1024x768.jpeg"
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "title": "Toyota Supra MK4",
+        "description": "",
+        "price": 109999,
+        "brand": "Toyota",
+        "category": "CLASSIC",
+        "thumbnail": "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-1000415793599659561-1024x768.jpeg",
+        "images": [
+          "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-7926891539291651219-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-2692856961736129087-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/10/19/13/53/1997_toyota_supra-pic-1564511092284089971-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/10/17/23/33/1997_toyota_supra-pic-2460339336413083769-1024x768.jpeg"
+        ],
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 3,
+    "createdAt":1679832276580,
+    "items": [
+      {
+        "id": 3,
+        "title": "Nissan GTR R34 Skyline",
+        "description": "",
+        "price": 75999,
+        "brand": "Nissan",
+        "category": "CLASSIC",
+        "thumbnail": "https://tn.com.ar/resizer/v7Dt-g1s8tIFPidil6PBtUag_m0=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/UP4RER4LF5EYJGW46ZTHCGBEME.jpg",
+        "images": [
+          "https://tn.com.ar/resizer/pleUvYKFyXH3rC1vx5nYQy0jTzU=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/7Q7YH4NVMZA3RBC3DKDZZ7UAQU.jpg",
+          "https://tn.com.ar/resizer/2mfaZTHmlLkah_x5Rl6YyYUrHjE=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/LM6KN7E2DVBIJPSNCUTRCPUXLY.jpg",
+          "https://tn.com.ar/resizer/dlYKMQkKX09bST-gdU6XIuvDzlE=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/RFIV52BLTFDCRMYZIYQGYWKIB4.jpg",
+          "https://tn.com.ar/resizer/O0Geoj93a-6gr_MsI2Zj6aXPGrs=/1440x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/5A62PWC7VRBE3O27B3MIT4QA3E.jpg"
+        ],
+        "quantity": 2
+      },
+      {
+        "id": 6,
+        "title": "Mazda RX7",
+        "description": "",
+        "price": 48000,
+        "brand": "Mazda",
+        "category": "CLASSIC",
+        "thumbnail": "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-3558015781235940163-1024x768.jpeg",
+        "images": [
+          "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-2135281232861258509-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-187049117780709286-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-2901816345700393462-1024x768.jpeg",
+          "https://static.cargurus.com/images/forsale/2023/11/21/16/26/1993_mazda_rx-7-pic-7582526191793046733-1024x768.jpeg"
+        ],
+        "quantity": 1
+      }
+    ]
+  }
+]
